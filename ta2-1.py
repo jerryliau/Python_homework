@@ -1,0 +1,9 @@
+a = list(map(int,input().split()))
+x = 1
+y = 1
+while x <= a[0]:
+  while y <= a[1]:
+    print("{}x{}={}".format(x,y,x*y))
+    y+=1
+  y = 1
+  x+=1
